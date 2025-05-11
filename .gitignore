@@ -45,3 +45,10 @@ next-env.d.ts
 
 # zip files
 *.zip
+
+# xata
+.xata
+.xatarc
+
+# migrations
+migrations
