@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 
-import ImageWithFallback from "~/components/image-with-fallback";
+import { ImageWithFallback } from "~/components";
 
 const VideoCard = ({
   id,

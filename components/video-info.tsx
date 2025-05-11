@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { infos } from "~/constants";
 import { cn, parseTranscript } from "~/lib/utils";
-import EmptyState from "~/components/empty-state";
+import { EmptyState } from "~/components";
 
 const VideoInfo = ({
   transcript,

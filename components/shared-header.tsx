@@ -5,9 +5,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
-import ImageWithFallback from "~/components/image-with-fallback";
-import RecordScreen from "~/components/record-screen";
-import DropdownList from "~/components/dropdown-list";
+import { ImageWithFallback, RecordScreen, DropdownList } from "~/components";
 import { filterOptions } from "~/constants";
 import { updateURLParams } from "~/lib/utils";
 
