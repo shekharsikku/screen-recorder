@@ -1,3 +1,4 @@
+import { Navbar } from "~/components";
 
 const RootLayout = ({
   children,
@@ -6,7 +7,7 @@ const RootLayout = ({
 }>) => {
   return (
     <div>
-      Root Layout
+      <Navbar />
       {children}
     </div>
   );
