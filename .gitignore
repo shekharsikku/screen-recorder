@@ -43,7 +43,13 @@ next-env.d.ts
 # vscode
 .vscode
 
-# zip files
+# .idea
+.idea
+
+# text
+*.txt
+
+# zip
 *.zip
 
 # xata
